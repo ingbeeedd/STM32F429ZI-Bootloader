@@ -1,0 +1,6 @@
+16:37:25 **** Build of configuration Debug for project STM32F429I-DISCO ****
+make -j6 all 
+make: Nothing to be done for 'all'.
+
+16:37:26 Build Finished (took 625ms)
+
