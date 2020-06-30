@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"03_stm32f4_usb_dfu\startup_stm32f429xx.o"
+"03_stm32f4_usb_dfu\main.o"
+"03_stm32f4_usb_dfu\stm32f4xx_it.o"
+"03_stm32f4_usb_dfu\stm32f4xx_hal_msp.o"
+"03_stm32f4_usb_dfu\stm32f4xx_hal_tim.o"
+"03_stm32f4_usb_dfu\stm32f4xx_hal_tim_ex.o"
+"03_stm32f4_usb_dfu\stm32f4xx_hal_rcc.o"
+"03_stm32f4_usb_dfu\stm32f4xx_hal_rcc_ex.o"
+"03_stm32f4_usb_dfu\stm32f4xx_hal_flash.o"
+"03_stm32f4_usb_dfu\stm32f4xx_hal_flash_ex.o"
+"03_stm32f4_usb_dfu\stm32f4xx_hal_flash_ramfunc.o"
+"03_stm32f4_usb_dfu\stm32f4xx_hal_gpio.o"
+"03_stm32f4_usb_dfu\stm32f4xx_hal_dma_ex.o"
+"03_stm32f4_usb_dfu\stm32f4xx_hal_dma.o"
+"03_stm32f4_usb_dfu\stm32f4xx_hal_pwr.o"
+"03_stm32f4_usb_dfu\stm32f4xx_hal_pwr_ex.o"
+"03_stm32f4_usb_dfu\stm32f4xx_hal_cortex.o"
+"03_stm32f4_usb_dfu\stm32f4xx_hal.o"
+"03_stm32f4_usb_dfu\stm32f4xx_hal_exti.o"
+"03_stm32f4_usb_dfu\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "03_stm32f4_usb_dfu\03_stm32f4_usb_dfu.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "03_stm32f4_usb_dfu.map" -o 03_stm32f4_usb_dfu\03_stm32f4_usb_dfu.axf

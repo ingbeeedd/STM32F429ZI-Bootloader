@@ -1,0 +1,1 @@
+03_stm32f4_usb_dfu\startup_stm32f429xx.o: startup_stm32f429xx.s
